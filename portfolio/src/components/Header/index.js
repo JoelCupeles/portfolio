@@ -1,13 +1,12 @@
-// Header/index.js
 import React from 'react';
-import './styles.css';
+//import Navigation from '../Navigation';
 
-const Header = () => {
-    return (
-        <header>
-            <h1>Developer's Name</h1>
-        </header>
-    );
-};
+function Header() {
+  return (
+    <header>
+      <h1>Joel Cupeles</h1>
+    </header>
+  );
+}
 
 export default Header;

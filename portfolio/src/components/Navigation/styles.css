@@ -1,0 +1,14 @@
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item.active .nav-link {
+    color: blue;
+}
