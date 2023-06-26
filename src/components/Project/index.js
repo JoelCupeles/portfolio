@@ -5,7 +5,7 @@ import './styles.css';
 const Project = () => {
     return (
         <div>
-            <h2>Project Title</h2>
+            <h2>Project</h2>
         </div>
     );
 };
