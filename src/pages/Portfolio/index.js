@@ -1,18 +1,21 @@
 import React from 'react';
 import './styles.css';
+import ProjectCard from '../../components/ProjectCard';
 
 const Portfolio = () => {
-   
+
     const projects = [
         { 
             title: 'ParkQuest', 
             description: 'Park Quest is a web application that allows users to search for national parks by selecting a state.',
-            link: 'https://joelcupeles.github.io/ParkQuest/'
+            link: 'https://joelcupeles.github.io/ParkQuest/',
+            image: '/park.png'
         },
         { 
             title: 'Weather Dashboard', 
-            description: 'he Weather Dashboard is a web application that allows users to search for the weather in a specific city.',
-            link: 'https://joelcupeles.github.io/Weather-Forecast/'
+            description: 'The Weather Dashboard is a web application that allows users to search for the weather in a specific city.',
+            link: 'https://joelcupeles.github.io/Weather-Forecast/',
+            image: ''
         }
         // Adding more projects later
     ];
@@ -21,11 +24,13 @@ const Portfolio = () => {
         <div className="portfolio">
             <h1>My Portfolio</h1>
             {projects.map((project, index) => (
-                <div key={index} className="project">
-                    <h2>{project.title}</h2>
-                    <p>{project.description}</p>
-                    <a href={project.link}>View Project</a>
-                </div>
+                <ProjectCard 
+                    key={index}
+                    title={project.title}
+                    description={project.description}
+                    link={project.link}
+                    image={project.image}
+                />
             ))}
         </div>
     );
