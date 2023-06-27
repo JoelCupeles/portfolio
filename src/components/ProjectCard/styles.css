@@ -2,9 +2,27 @@
     border: 1px solid #ccc;
     padding: 20px;
     margin: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .project-card img {
     width: 100%;
     height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.project-card a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007BFF;
+    margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+    .project-card {
+        margin: 10px 0;
+    }
 }

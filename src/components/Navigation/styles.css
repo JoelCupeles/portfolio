@@ -1,14 +1,35 @@
 .nav-links {
+    list-style-type: none;
+    padding: 0;
     display: flex;
     justify-content: space-around;
-    padding: 0;
+    background-color: #f8f8f8;
+    font-family: 'Arial', sans-serif;
+}
+
+.nav-item {
+    padding: 20px 0;
 }
 
 .nav-link {
     text-decoration: none;
-    color: black;
+    color: #333;
 }
 
 .nav-item.active .nav-link {
-    color: blue;
+    color: #007BFF;
+}
+
+.nav-item:hover .nav-link {
+    color: #007BFF;
+}
+
+@media (max-width: 600px) {
+    .nav-links {
+        flex-direction: column;
+    }
+
+    .nav-item {
+        padding: 10px 0;
+    }
 }
