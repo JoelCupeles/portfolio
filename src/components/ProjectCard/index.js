@@ -7,7 +7,7 @@ const ProjectCard = (props) => {
         <div className="project-card">
             <h3>{props.title}</h3>
             <a href={props.link} target="_blank" rel="noopener noreferrer">
-                <img src={props.image} alt={props.title} />
+                <img src={`/images/${props.image}`} alt={props.title} />
             </a>
             <p>{props.description}</p>
             <a href={props.link} target="_blank" rel="noopener noreferrer">View Project</a>

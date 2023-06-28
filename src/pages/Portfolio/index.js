@@ -6,10 +6,10 @@ const Portfolio = () => {
 
     const projects = [
         { 
-            title: 'ParkQuest', 
-            description: 'Park Quest is a web application that allows users to search for national parks by selecting a state.',
-            link: 'https://joelcupeles.github.io/ParkQuest/',
-            image: './park.png'
+          title: 'ParkQuest', 
+          description: 'Park Quest is a web application that allows users to search for national parks by selecting a state.',
+          link: 'https://joelcupeles.github.io/ParkQuest/',
+          image: 'park.png'  
         },
         { 
             title: 'Weather Dashboard', 

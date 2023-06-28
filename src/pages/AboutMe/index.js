@@ -8,8 +8,10 @@ const AboutMe = () => {
             <h1>About Me</h1>
             <img src={profilePic} alt="Profile" />
             <p>
-             Hello, my name is Joel Cupeles and I am 24 years old. I was born and raised in Puerto Rico, where I earned my bachelor's degree in Finance from the University of Puerto Rico. I am passionate about finding innovative solutions to challenges and exceeding expectations. This is why I am currently enrolled in the Washington University web development bootcamp - to expand my creative thinking and to challenge myself further.</p>
-            <p>I am proficient in multiple web development languages and I have a strong command of both English and Spanish. No matter how difficult the task may be, I am confident in my ability to complete it to the best of my ability.</p>
+            Driven finance professional with a Bachelor's degree in Finance and a keen passion for the aerospace industry. Recently appointed as an Estimating Specialist at Boeing, bringing a fresh perspective and a commitment to accuracy and strategic planning in financial estimation.
+
+            Originally from Puerto Rico and now making waves in St. Louis, I'm equipped with a diverse background that inspires my approach to financial analysis. Always eager to learn, I am committed to staying updated with the latest industry trends and enhancing my skills in financial modeling and data analytics.</p>
+        <p>I am proficient in multiple web development languages and I have a strong command of both English and Spanish. No matter how difficult the task may be, I am confident in my ability to complete it to the best of my ability.</p>
         </div>
     );
 };
