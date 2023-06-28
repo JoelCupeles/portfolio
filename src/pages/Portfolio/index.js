@@ -9,7 +9,7 @@ const Portfolio = () => {
             title: 'ParkQuest', 
             description: 'Park Quest is a web application that allows users to search for national parks by selecting a state.',
             link: 'https://joelcupeles.github.io/ParkQuest/',
-            image: '/park.png'
+            image: './park.png'
         },
         { 
             title: 'Weather Dashboard', 
@@ -17,7 +17,7 @@ const Portfolio = () => {
             link: 'https://joelcupeles.github.io/Weather-Forecast/',
             image: ''
         }
-        // Adding more projects later
+        // more projects 
     ];
 
     return (
@@ -36,4 +36,4 @@ const Portfolio = () => {
     );
 };
 
-export default Portfolio;
+export default Portfolio
